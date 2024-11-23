@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-expand-fromLeft.active {
+  border-bottom: solid 3px #000000;
+}
+
+.border-expand-fromLeft::after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #000000;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+.border-expand-fromLeft:hover:after {
+  transform: scaleX(1);
+}
+
+.content section {
+  margin-bottom: 30px;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2b2d35;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2b2d35;
+}
+
+.content h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2b2d35;
+}
+
+.content h5 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #2b2d35;
+}
+
+.content h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2b2d35;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #2b2d35;
+}
+
+.content span {
+  font-size: 1rem;
+  color: #2b2d35;
+  font-weight: normal;
+  line-height: inherit;
+}
