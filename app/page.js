@@ -13,7 +13,7 @@ export default function Home() {
             Welcome to my Web <br /> Development Portofolio!
           </h1>
           <p className="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-4 !text-gray-500 md:pr-16 xl:pr-28">
-            I'm John Doe, a dedicated web developer. This is where you can
+            I'm Shiksha Siag, a dedicated web developer. This is where you can
             explore my journey in the world of web development, blending
             creativity with functionality.
           </p>
