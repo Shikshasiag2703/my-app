@@ -81,7 +81,7 @@ const Contact = () => {
                 <div className="mb-8 grid gap-4 lg:grid-cols-2">
                   <div className="relative w-full  h-12 !min-w-full mb-3 md:mb-0">
                     <input
-                      placeholder="eg. John"
+                      placeholder="eg. Shiksha"
                       className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all border-b placeholder-shown:border-blue-gray-200 text-sm px-px pt-5 pb-2 border-blue-gray-200 focus:border-gray-900"
                       name="firstname"
                       required
@@ -92,7 +92,7 @@ const Contact = () => {
                   </div>
                   <div className="relative w-full h-12 !min-w-full">
                     <input
-                      placeholder="eg. Doe"
+                      placeholder="eg. Siag"
                       className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all border-b placeholder-shown:border-blue-gray-200 text-sm px-px pt-5 pb-2 border-blue-gray-200 focus:border-gray-900"
                       name="lastname"
                       required
