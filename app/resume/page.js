@@ -102,7 +102,7 @@ export default function page() {
         </div>
         <div className="w-full p-20 flex items-center justify-center">
           <Link href="/SHI Coop.pdf" dowload="SHI Coop.pdf" target="_blank">
-            <button className="text-black-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br outline-none font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
+            <button className="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
               Download Resume
             </button>
           </Link>
