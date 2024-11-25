@@ -104,7 +104,7 @@ const Contact = () => {
                 </div>
                 <div className="relative w-full h-12 !min-w-full mb-8">
                   <input
-                    placeholder="eg. johndoe@mail.com"
+                    placeholder="eg. siagshiksha@gmail.com"
                     className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 transition-all border-b placeholder-shown:border-blue-gray-200 text-sm px-px pt-5 pb-2 border-blue-gray-200 focus:border-gray-900"
                     name="email"
                     type="email"
